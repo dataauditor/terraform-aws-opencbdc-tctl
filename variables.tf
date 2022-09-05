@@ -18,7 +18,7 @@ variable "cert_arn" {
 variable "ec2_public_key" {
   type        = string
   description = "SSH public key to use in EC2 instances."
-  default     = ""
+  default     = "AAAAB3NzaC1yc2EAAAADAQABAAABgQDUG5RV4LitBWgkSYhHv2kSsfIbKp0wBum1KEXK7aN6d8FLonile38DBPk4Z6W"
 }
 
 # VPC Variables
