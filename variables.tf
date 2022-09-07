@@ -18,7 +18,7 @@ variable "cert_arn" {
 variable "ec2_public_key" {
   type        = string
   description = "SSH public key to use in EC2 instances."
-  default     = "AAAAB3NzaC1yc2EAAAADAQABAAABgQDUG5RV4LitBWgkSYhHv2kSsfIbKp0wBum1KEXK7aN6d8FLonile38DBPk4Z6W"
+  default     = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDUG5RV4LitBWgkSYhHv2kSsfIbKp0wBum1KEXK7aN6d8FLonile38DBPk4Z6W/H4L5CRcpHd9H0LiN9S+Y609jc7h4kmRkbLVXceNrc5LaDb8c6tsJSphs8dIXI2uyxtW/drkUMIUuJHicHiTo5/uloUXI1+nGGP/jA+apwN5DHcpcKMiTqWhhiuGoQzztzMlQWy3fX1bgN3DWhNyDqObBRIj9Iy+6JVtOd304FO52z+rWCCIG9FWM+oDNWx511OSwaqVQRk0zXoXK/9rYyASIT5tIlChKQ5ojUDx86EX0oLjYssGyXFzjSZCNkCL0D82aRBcaTt2ZbyPBBPdF/S98CDGeiUrmflG2nHbUTEtP4WDnxoJ8YC7jt8OOkJi+2vScRPeQfKCER1kleFqdeWcZb4hLKUPZlu3dp0fwN4DIFO2U0Izmpkoz4L4npgxj9MR3PMd8D5GMkK2MeTT6B2VOdJEGkZPn8SA6CuI+4xWg0Ku+LxFHj0f/kYdD1l+XWGE= ubuntu@ip-172-31-63-164"
 }
 
 # VPC Variables
@@ -235,7 +235,7 @@ variable "transaction_processor_main_branch" {
 variable "transaction_processor_github_access_token" {
   type = string
   description = "Access token for the transaction repo if permissions are required"
-  default = "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"
+#  default = "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"
 }
 variable "cluster_instance_type" {
   type        = string
